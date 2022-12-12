@@ -5,6 +5,7 @@
   <getInput></getInput> -->
   <getcheckbox></getcheckbox>
   <ifElse></ifElse>
+  <forLoop></forLoop>
 </template>
 
 <script>
@@ -14,6 +15,7 @@
 // import getInput from "./components/getInput.vue";
 import getcheckbox from "./components/GetCheckbox&RadioButtonValue.vue";
 import ifElse from "./components/ifElse.vue";
+import forLoop from "./components/forLoop.vue";
 export default {
   name: "App",
   components: {
@@ -23,6 +25,7 @@ export default {
     // getInput,
     getcheckbox,
     ifElse,
+    forLoop,
   },
 };
 </script>
