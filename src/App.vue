@@ -4,6 +4,7 @@
   <eventClick></eventClick>
   <getInput></getInput> -->
   <getcheckbox></getcheckbox>
+  <ifElse></ifElse>
 </template>
 
 <script>
@@ -12,6 +13,7 @@
 // import eventClick from "./components/eventClick.vue";
 // import getInput from "./components/getInput.vue";
 import getcheckbox from "./components/GetCheckbox&RadioButtonValue.vue";
+import ifElse from "./components/ifElse.vue";
 export default {
   name: "App",
   components: {
@@ -20,6 +22,7 @@ export default {
     // eventClick,
     // getInput,
     getcheckbox,
+    ifElse,
   },
 };
 </script>
