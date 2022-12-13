@@ -4,7 +4,7 @@
   <eventClick></eventClick> -->
   <getInput></getInput>
   <!-- <getcheckbox></getcheckbox> -->
-  <ifElse></ifElse>
+  <!-- <ifElse></ifElse> -->
   <!-- <forLoop></forLoop> -->
 </template>
 
@@ -14,7 +14,7 @@
 // import eventClick from "./components/eventClick.vue";
 import getInput from "./components/getInput.vue";
 // import getcheckbox from "./components/GetCheckbox&RadioButtonValue.vue";
-import ifElse from "./components/ifElse.vue";
+// import ifElse from "./components/ifElse.vue";
 // import forLoop from "./components/forLoop.vue";
 export default {
   name: "App",
@@ -24,7 +24,7 @@ export default {
     // eventClick,
     getInput,
     // getcheckbox,
-    ifElse,
+    // ifElse,
     // forLoop,
   },
 };
