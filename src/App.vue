@@ -1,31 +1,31 @@
 <template>
   <!-- <firstComponents></firstComponents>
   <praticalComponents></praticalComponents>
-  <eventClick></eventClick>
-  <getInput></getInput> -->
-  <getcheckbox></getcheckbox>
+  <eventClick></eventClick> -->
+  <getInput></getInput>
+  <!-- <getcheckbox></getcheckbox> -->
   <ifElse></ifElse>
-  <forLoop></forLoop>
+  <!-- <forLoop></forLoop> -->
 </template>
 
 <script>
 // import firstComponents from "./components/firstComponents.vue";
 // import praticalComponents from "./components/praticalComponents.vue";
 // import eventClick from "./components/eventClick.vue";
-// import getInput from "./components/getInput.vue";
-import getcheckbox from "./components/GetCheckbox&RadioButtonValue.vue";
+import getInput from "./components/getInput.vue";
+// import getcheckbox from "./components/GetCheckbox&RadioButtonValue.vue";
 import ifElse from "./components/ifElse.vue";
-import forLoop from "./components/forLoop.vue";
+// import forLoop from "./components/forLoop.vue";
 export default {
   name: "App",
   components: {
     // firstComponents,
     // praticalComponents,
     // eventClick,
-    // getInput,
-    getcheckbox,
+    getInput,
+    // getcheckbox,
     ifElse,
-    forLoop,
+    // forLoop,
   },
 };
 </script>
