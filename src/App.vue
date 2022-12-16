@@ -1,17 +1,33 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <!-- <firstComponents></firstComponents>
+  <praticalComponents></praticalComponents>
+  <eventClick></eventClick> -->
+  <getInput></getInput>
+  <!-- <getcheckbox></getcheckbox> -->
+  <!-- <ifElse></ifElse> -->
+  <!-- <forLoop></forLoop> -->
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+// import firstComponents from "./components/firstComponents.vue";
+// import praticalComponents from "./components/praticalComponents.vue";
+// import eventClick from "./components/eventClick.vue";
+import getInput from "./components/getInput.vue";
+// import getcheckbox from "./components/GetCheckbox&RadioButtonValue.vue";
+// import ifElse from "./components/ifElse.vue";
+// import forLoop from "./components/forLoop.vue";
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    // firstComponents,
+    // praticalComponents,
+    // eventClick,
+    getInput,
+    // getcheckbox,
+    // ifElse,
+    // forLoop,
+  },
+};
 </script>
 
 <style>
