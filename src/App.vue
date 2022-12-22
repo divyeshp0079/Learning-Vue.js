@@ -1,5 +1,5 @@
 <template>
-  <firstComponents></firstComponents>
+  <!-- <firstComponents></firstComponents> -->
   <!-- <praticalComponents></praticalComponents> -->
   <!-- <eventClick></eventClick>  -->
   <!-- <getInput></getInput> -->
@@ -8,10 +8,11 @@
   <!-- <forLoop></forLoop> -->
   <!-- <htmlbinding /> -->
   <!-- <dynamicStyle /> -->
+  <refwithinterview />
 </template>
 
 <script>
-import firstComponents from "./components/firstComponents.vue";
+// import firstComponents from "./components/firstComponents.vue";
 // import praticalComponents from "./components/praticalComponents.vue";
 // import eventClick from "./components/eventClick.vue";
 // import getInput from "./components/getInput.vue";
@@ -20,10 +21,11 @@ import firstComponents from "./components/firstComponents.vue";
 // import forLoop from "./components/forLoop.vue";
 // import htmlbinding from "./components/17_Html_binding.vue";
 // import dynamicStyle from "./components/18_class_binding/dynamic_style.vue";
+import refwithinterview from "./components/21_ref_with_interview_que.vue";
 export default {
   name: "App",
   components: {
-    firstComponents,
+    // firstComponents,
     // praticalComponents,
     // eventClick,
     // getInput,
@@ -32,6 +34,7 @@ export default {
     // forLoop,
     // htmlbinding,
     // dynamicStyle,
+    refwithinterview,
   },
 };
 </script>
