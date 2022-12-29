@@ -10,7 +10,8 @@
   <!-- <dynamicStyle /> -->
   <!-- <refwithinterview /> -->
   <!-- <formData /> -->
-  <formCom />
+  <!-- <formCom /> -->
+  <formValidation />
 </template>
 
 <script>
@@ -25,7 +26,9 @@
 // import dynamicStyle from "./components/18_class_binding/dynamic_style.vue";
 // import refwithinterview from "./components/21_ref_with_interview_que.vue";
 // import formData from "./components/22_simple_form.vue";
-import formCom from "./components/23_complate_form.vue";
+// import formCom from "./components/23_complate_form.vue";
+import formValidation from "./components/24_form_validation.vue";
+
 export default {
   name: "App",
   components: {
@@ -40,7 +43,8 @@ export default {
     // dynamicStyle,
     // refwithinterview,
     // formData,
-    formCom,
+    // formCom,
+    formValidation,
   },
 };
 </script>
