@@ -9,7 +9,8 @@
   <!-- <htmlbinding /> -->
   <!-- <dynamicStyle /> -->
   <!-- <refwithinterview /> -->
-  <formData />
+  <!-- <formData /> -->
+  <formCom />
 </template>
 
 <script>
@@ -23,7 +24,8 @@
 // import htmlbinding from "./components/17_Html_binding.vue";
 // import dynamicStyle from "./components/18_class_binding/dynamic_style.vue";
 // import refwithinterview from "./components/21_ref_with_interview_que.vue";
-import formData from "./components/22_simple_form.vue";
+// import formData from "./components/22_simple_form.vue";
+import formCom from "./components/23_complate_form.vue";
 export default {
   name: "App",
   components: {
@@ -37,7 +39,8 @@ export default {
     // htmlbinding,
     // dynamicStyle,
     // refwithinterview,
-    formData,
+    // formData,
+    formCom,
   },
 };
 </script>
