@@ -11,7 +11,9 @@
   <!-- <refwithinterview /> -->
   <!-- <formData /> -->
   <!-- <formCom /> -->
-  <formValidation />
+  <!-- <formValidation /> -->
+  <!-- <modifiers /> -->
+  <nonProbdata />
 </template>
 
 <script>
@@ -27,7 +29,9 @@
 // import refwithinterview from "./components/21_ref_with_interview_que.vue";
 // import formData from "./components/22_simple_form.vue";
 // import formCom from "./components/23_complate_form.vue";
-import formValidation from "./components/24_form_validation.vue";
+// import formValidation from "./components/24_form_validation.vue";
+// import modifiers from "./components/25_modifiers_form_modifiers.vue";
+import nonProbdata from "./components/26_non_prob_data.vue";
 
 export default {
   name: "App",
@@ -44,7 +48,9 @@ export default {
     // refwithinterview,
     // formData,
     // formCom,
-    formValidation,
+    // formValidation,
+    // modifiers,
+    nonProbdata,
   },
 };
 </script>

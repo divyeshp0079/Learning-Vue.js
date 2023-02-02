@@ -1,6 +1,9 @@
 <template>
   <h1>22 Simple from</h1>
   <p>{{ from }}</p>
+  <ul>
+    <li>{{ this.error }}</li>
+  </ul>
   <label>Email:</label>
   <input type="text" placeholder="Email" v-model="from.email" />
 
